@@ -1,6 +1,6 @@
 function getStockPrice(ticker) {
 
-  const gateway = "https://lhqmyilp3e.execute-api.us-east-1.amazonaws.com/prod/get-stock-price";
+  const gateway = 'https://lhqmyilp3e.execute-api.us-east-1.amazonaws.com/prod';
 
   const fetchOptions = {
     method: 'POST',

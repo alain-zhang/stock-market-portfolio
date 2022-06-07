@@ -12,7 +12,8 @@ function App() {
   
   // Uncomment setMyName if required, for example, if the name
   // is stored in the DynamoDB
-  const [myName/*, setMyName*/] = useState('Alain');
+  const [myName/*, setMyName*/] = useState('aLAINA');
+  
   const [stocks, setStocks] = useState([]);
   const [stockPrices, setStockPrices] = useState({});
   const [tickerList, setTickerList] = useState([]);
