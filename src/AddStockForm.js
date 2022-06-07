@@ -3,7 +3,7 @@ import './App.css';
 import { Col, Button, FormGroup, Label, Input } from 'reactstrap';
 
 function AddStockForm(props) {
-  const AWS_API_GATEWAY = 'https://lhqmyilp3e.execute-api.us-east-1.amazonaws.com/prod';
+  const AWS_API_GATEWAY = 'https://dsam16axa9.execute-api.us-east-1.amazonaws.com/prod';
   const AWS_API_GATEWAY_ADD_STOCK = AWS_API_GATEWAY + "/add-stock";
   
   const [ticker, setTicker] = useState('');
@@ -52,6 +52,7 @@ function AddStockForm(props) {
   }, [ticker, shares, purchasePrice])
 
   if (addStockError == true) {
+    console.log();
     return(
       <div className="add-stock-error">There was an error adding the stock</div>
     )

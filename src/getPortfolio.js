@@ -1,5 +1,5 @@
 function getPortfolio(setStocks) {
-  const AWS_API_GATEWAY = 'https://lhqmyilp3e.execute-api.us-east-1.amazonaws.com/prod';
+  const AWS_API_GATEWAY = 'https://dsam16axa9.execute-api.us-east-1.amazonaws.com/prod';
   const AWS_API_GATEWAY_GET_PORTFOLIO = AWS_API_GATEWAY + '/get-portfolio';
   
   const options = {
